@@ -1,9 +1,9 @@
 library(siar);
 library(openxlsx);
 
-## ZJ
+## PRE
 # Read data
-setwd("./ZJ"); # Specify the folder where data is stored
+setwd("./PRE"); # Specify the folder where data is stored
 data <- read.xlsx('ConsumerData.xlsx',sheet=1);
 sources <- read.xlsx('SourceData.xlsx',sheet=1);
 #tef <- read.xlsx('TEFData.xlsx',sheet=1);
@@ -58,9 +58,9 @@ siarproportionbygroupplot(model1,grp=1) # Plot contribution graph of each source
 siarhdrs(model1)
 
 
-# QD
+# EH
 # Read data
-setwd("./QD"); # Specify the folder where data is stored
+setwd("./EH"); # Specify the folder where data is stored
 data <- read.xlsx('ConsumerData.xlsx',sheet=1);
 sources <- read.xlsx('SourceData.xlsx',sheet=1);
 #tef <- read.xlsx('TEFData.xlsx',sheet=1);
@@ -77,9 +77,9 @@ siarproportionbygroupplot(model1,grp=1) # Plot contribution graph of each source
 siarhdrs(model1)
 
 
-# YX
+# WG
 # Read data
-setwd("./YX"); # Specify the folder where data is stored
+setwd("./WG"); # Specify the folder where data is stored
 data <- read.xlsx('ConsumerData.xlsx',sheet=1);
 sources <- read.xlsx('SourceData.xlsx',sheet=1);
 #tef <- read.xlsx('TEFData.xlsx',sheet=1);
